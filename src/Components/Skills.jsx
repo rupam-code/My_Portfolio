@@ -62,7 +62,6 @@ export default function Skills() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Language Known</h1>
-        <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
